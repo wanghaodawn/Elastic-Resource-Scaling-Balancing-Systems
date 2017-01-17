@@ -1,0 +1,145 @@
+; MSB Cache Test
+; Test launched. Please check every minute for update.
+[Test Start]
+time=2016-02-21 03:30:27
+testId=1456025426713
+testFile=test.1456025426713.log
+type=t3
+
+[Minute Report]
+rps(including bad responses)=151.8
+error=0.00
+rps(only correct responses)=151
+
+[Minute Report]
+rps(including bad responses)=143.5
+error=0.00
+rps(only correct responses)=143
+
+[Minute Report]
+rps(including bad responses)=150.1
+error=0.00
+rps(only correct responses)=150
+
+[Minute Report]
+rps(including bad responses)=153.0
+error=0.00
+rps(only correct responses)=153
+
+[Minute Report]
+rps(including bad responses)=145.3
+error=0.00
+rps(only correct responses)=145
+
+[Minute Report]
+rps(including bad responses)=146.5
+error=0.00
+rps(only correct responses)=146
+
+[Minute Report]
+rps(including bad responses)=154.8
+error=0.00
+rps(only correct responses)=154
+
+[Minute Report]
+rps(including bad responses)=151.7
+error=0.00
+rps(only correct responses)=151
+
+[Minute Report]
+rps(including bad responses)=153.0
+error=0.00
+rps(only correct responses)=153
+
+[Minute Report]
+rps(including bad responses)=155.1
+error=0.00
+rps(only correct responses)=155
+
+[Minute Report]
+rps(including bad responses)=155.2
+error=0.00
+rps(only correct responses)=155
+
+[Minute Report]
+rps(including bad responses)=153.3
+error=0.00
+rps(only correct responses)=153
+
+[Minute Report]
+rps(including bad responses)=153.0
+error=0.00
+rps(only correct responses)=153
+
+[Minute Report]
+rps(including bad responses)=147.2
+error=0.00
+rps(only correct responses)=147
+
+[Minute Report]
+rps(including bad responses)=151.1
+error=0.00
+rps(only correct responses)=151
+
+[Minute Report]
+rps(including bad responses)=152.4
+error=0.00
+rps(only correct responses)=152
+
+[Minute Report]
+rps(including bad responses)=146.9
+error=0.00
+rps(only correct responses)=146
+
+[Minute Report]
+rps(including bad responses)=154.0
+error=0.00
+rps(only correct responses)=154
+
+[Minute Report]
+rps(including bad responses)=133.1
+error=0.00
+rps(only correct responses)=133
+
+[Minute Report]
+rps(including bad responses)=134.8
+error=0.00
+rps(only correct responses)=134
+
+[Minute Report]
+rps(including bad responses)=132.5
+error=0.00
+rps(only correct responses)=132
+
+[Minute Report]
+rps(including bad responses)=134.2
+error=0.00
+rps(only correct responses)=134
+
+[Minute Report]
+rps(including bad responses)=132.3
+error=0.00
+rps(only correct responses)=132
+
+[Minute Report]
+rps(including bad responses)=135.5
+error=0.00
+rps(only correct responses)=135
+
+[Minute Report]
+rps(including bad responses)=136.8
+error=0.00
+rps(only correct responses)=136
+
+[Load Generator]
+andrewId=haow2
+passwd=F9QkDTX1cw5BTk9ynHurwi6556HUuFue
+
+[Test End]
+time=2016-02-21 03:56:34
+rps=145.92
+error_rate=0
+
+; TPZ is validating...
+{"success":true,"message":"Your submission is in processing, submission token is:haow2_p23-azure_112_127240232 Wait and check your code, score and feedback on TPZ.","status":1200}
+; Test finished

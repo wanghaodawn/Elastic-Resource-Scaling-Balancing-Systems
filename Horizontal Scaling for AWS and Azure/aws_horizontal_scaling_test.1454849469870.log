@@ -1,0 +1,148 @@
+; 2016-02-07T12:51:10+0000
+; Horizontal Scaling Test
+; isTestingThroughCode=true
+; Test launched. Please check every minute for update.
+; Your goal is too achieve rps=4000 in 30 min
+; Minimal interval of adding instances is 100 sec
+[Test]
+type=horizontal
+testId=1454849469870
+testFile=test.1454849469870.log
+
+[Minute 1]
+ec2-52-91-166-43.compute-1.amazonaws.com=463.79
+
+[Minute 2]
+ec2-52-91-166-43.compute-1.amazonaws.com=713.02
+
+[Minute 3]
+ec2-52-91-166-43.compute-1.amazonaws.com=778.31
+ec2-52-90-7-148.compute-1.amazonaws.com=469.56
+
+[Minute 4]
+ec2-52-91-166-43.compute-1.amazonaws.com=784.08
+ec2-52-90-7-148.compute-1.amazonaws.com=805.09
+
+[Minute 5]
+ec2-52-91-166-43.compute-1.amazonaws.com=780.84
+ec2-52-90-7-148.compute-1.amazonaws.com=816.27
+
+[Minute 6]
+ec2-52-91-166-43.compute-1.amazonaws.com=720.60
+ec2-52-90-7-148.compute-1.amazonaws.com=808.40
+ec2-52-91-63-0.compute-1.amazonaws.com=455.86
+
+[Minute 7]
+ec2-52-91-166-43.compute-1.amazonaws.com=728.57
+ec2-52-90-7-148.compute-1.amazonaws.com=814.88
+ec2-52-91-63-0.compute-1.amazonaws.com=829.85
+
+[Minute 8]
+ec2-52-91-166-43.compute-1.amazonaws.com=782.20
+ec2-52-90-7-148.compute-1.amazonaws.com=737.51
+ec2-52-91-63-0.compute-1.amazonaws.com=806.87
+ec2-52-91-200-141.compute-1.amazonaws.com=365.84
+
+[Minute 9]
+ec2-52-91-166-43.compute-1.amazonaws.com=798.40
+ec2-52-90-7-148.compute-1.amazonaws.com=738.98
+ec2-52-91-63-0.compute-1.amazonaws.com=783.43
+ec2-52-91-200-141.compute-1.amazonaws.com=784.22
+
+[Minute 10]
+ec2-52-91-166-43.compute-1.amazonaws.com=798.22
+ec2-52-90-7-148.compute-1.amazonaws.com=739.96
+ec2-52-91-63-0.compute-1.amazonaws.com=788.65
+ec2-52-91-200-141.compute-1.amazonaws.com=772.35
+
+[Minute 11]
+ec2-52-91-166-43.compute-1.amazonaws.com=798.16
+ec2-52-90-7-148.compute-1.amazonaws.com=821.48
+ec2-52-91-63-0.compute-1.amazonaws.com=730.12
+ec2-52-91-200-141.compute-1.amazonaws.com=800.69
+ec2-52-90-36-86.compute-1.amazonaws.com=397.18
+
+[Minute 12]
+ec2-52-91-166-43.compute-1.amazonaws.com=788.45
+ec2-52-90-7-148.compute-1.amazonaws.com=820.42
+ec2-52-91-63-0.compute-1.amazonaws.com=728.46
+ec2-52-91-200-141.compute-1.amazonaws.com=796.85
+ec2-52-90-36-86.compute-1.amazonaws.com=827.31
+
+[Minute 13]
+ec2-52-91-166-43.compute-1.amazonaws.com=782.44
+ec2-52-90-7-148.compute-1.amazonaws.com=809.20
+ec2-52-91-63-0.compute-1.amazonaws.com=809.50
+ec2-52-91-200-141.compute-1.amazonaws.com=542.18
+ec2-52-90-36-86.compute-1.amazonaws.com=816.27
+ec2-54-173-90-124.compute-1.amazonaws.com=298.63
+
+[Load Generator]
+awsId=825708373574
+andrewId=haow2
+amiId=ami-8ac4e9e0
+instanceId=i-f59f0075
+instanceType=m3.medium
+publicHostname=ec2-54-86-216-19.compute-1.amazonaws.com
+ipAddress=54.86.216.19
+passwd=F9QkDTX1cw5BTk9ynHurwi6556HUuFue
+
+[Data Center 0]
+andrewId=haow2
+amiId=ami-349fbb5e
+instanceId=i-5a9f00da
+publicHostname=ec2-52-91-166-43.compute-1.amazonaws.com
+awsId=825708373574
+instanceType=m3.medium
+ipAddress=52.91.166.43
+
+[Data Center 1]
+andrewId=haow2
+amiId=ami-349fbb5e
+instanceId=i-849e0104
+publicHostname=ec2-52-90-7-148.compute-1.amazonaws.com
+awsId=825708373574
+instanceType=m3.medium
+ipAddress=52.90.7.148
+
+[Data Center 2]
+andrewId=haow2
+amiId=ami-349fbb5e
+instanceId=i-bf9b043f
+publicHostname=ec2-52-91-63-0.compute-1.amazonaws.com
+awsId=825708373574
+instanceType=m3.medium
+ipAddress=52.91.63.0
+
+[Data Center 3]
+andrewId=haow2
+amiId=ami-349fbb5e
+instanceId=i-6b9906eb
+publicHostname=ec2-52-91-200-141.compute-1.amazonaws.com
+awsId=825708373574
+instanceType=m3.medium
+ipAddress=52.91.200.141
+
+[Data Center 4]
+andrewId=haow2
+amiId=ami-349fbb5e
+instanceId=i-fe96097e
+publicHostname=ec2-52-90-36-86.compute-1.amazonaws.com
+awsId=825708373574
+instanceType=m3.medium
+ipAddress=52.90.36.86
+
+[Data Center 5]
+andrewId=haow2
+amiId=ami-349fbb5e
+instanceId=i-11930c91
+publicHostname=ec2-54-173-90-124.compute-1.amazonaws.com
+awsId=825708373574
+instanceType=m3.medium
+ipAddress=54.173.90.124
+
+; MSB is validating...
+[Test End]
+rps=4058.22
+pass=true
+{"success":true,"message":"Your submission is in processing, submission token is:haow2_p21-aws_88_1492690145 Wait and check your code, score and feedback on TPZ.","status":1200}

@@ -1,0 +1,140 @@
+; 2016-02-07T03:17:30+0000
+; Azure Horizontal Scaling Test
+; isTestingThroughCode=true
+; Test launched. Please check every minute for update.
+; Your goal is too achieve rps=3000 in 30 min
+; Minimal interval of adding instances is 100 sec
+[Test]
+type=horizontal
+testId=1454815049511
+testFile=test.1454815049511.log
+
+[Minute 1]
+dc10vm.eastus.cloudapp.azure.com=372.88
+
+[Minute 2]
+dc10vm.eastus.cloudapp.azure.com=565.40
+
+[Minute 3]
+dc10vm.eastus.cloudapp.azure.com=544.76
+
+[Minute 4]
+dc10vm.eastus.cloudapp.azure.com=561.41
+
+[Minute 5]
+dc10vm.eastus.cloudapp.azure.com=575.95
+dc20vm.eastus.cloudapp.azure.com=342.47
+
+[Minute 6]
+dc10vm.eastus.cloudapp.azure.com=579.90
+dc20vm.eastus.cloudapp.azure.com=533.76
+
+[Minute 7]
+dc10vm.eastus.cloudapp.azure.com=578.88
+dc20vm.eastus.cloudapp.azure.com=544.31
+
+[Minute 8]
+dc10vm.eastus.cloudapp.azure.com=576.47
+dc20vm.eastus.cloudapp.azure.com=543.15
+
+[Minute 9]
+dc10vm.eastus.cloudapp.azure.com=455.19
+dc20vm.eastus.cloudapp.azure.com=556.81
+dc30vm.eastus.cloudapp.azure.com=382.82
+
+[Minute 10]
+dc10vm.eastus.cloudapp.azure.com=452.24
+dc20vm.eastus.cloudapp.azure.com=551.14
+dc30vm.eastus.cloudapp.azure.com=564.91
+
+[Minute 11]
+dc10vm.eastus.cloudapp.azure.com=456.97
+dc20vm.eastus.cloudapp.azure.com=556.71
+dc30vm.eastus.cloudapp.azure.com=556.98
+
+[Minute 12]
+dc10vm.eastus.cloudapp.azure.com=585.74
+dc20vm.eastus.cloudapp.azure.com=415.61
+dc30vm.eastus.cloudapp.azure.com=579.33
+dc40vm.eastus.cloudapp.azure.com=341.85
+
+[Minute 13]
+dc10vm.eastus.cloudapp.azure.com=584.01
+dc20vm.eastus.cloudapp.azure.com=411.47
+dc30vm.eastus.cloudapp.azure.com=572.48
+dc40vm.eastus.cloudapp.azure.com=558.12
+
+[Minute 14]
+dc10vm.eastus.cloudapp.azure.com=592.64
+dc20vm.eastus.cloudapp.azure.com=416.86
+dc30vm.eastus.cloudapp.azure.com=577.59
+dc40vm.eastus.cloudapp.azure.com=552.78
+
+[Minute 15]
+dc10vm.eastus.cloudapp.azure.com=587.85
+dc20vm.eastus.cloudapp.azure.com=417.62
+dc30vm.eastus.cloudapp.azure.com=575.92
+dc40vm.eastus.cloudapp.azure.com=559.52
+
+[Minute 16]
+dc10vm.eastus.cloudapp.azure.com=592.74
+dc20vm.eastus.cloudapp.azure.com=551.73
+dc30vm.eastus.cloudapp.azure.com=449.53
+dc40vm.eastus.cloudapp.azure.com=562.18
+dc50vm.eastus.cloudapp.azure.com=380.53
+
+[Minute 17]
+dc10vm.eastus.cloudapp.azure.com=586.57
+dc20vm.eastus.cloudapp.azure.com=563.53
+dc30vm.eastus.cloudapp.azure.com=446.75
+dc40vm.eastus.cloudapp.azure.com=574.08
+dc50vm.eastus.cloudapp.azure.com=587.43
+
+[Minute 18]
+dc10vm.eastus.cloudapp.azure.com=585.80
+dc20vm.eastus.cloudapp.azure.com=549.16
+dc30vm.eastus.cloudapp.azure.com=438.97
+dc40vm.eastus.cloudapp.azure.com=558.20
+dc50vm.eastus.cloudapp.azure.com=587.18
+
+[Minute 19]
+dc10vm.eastus.cloudapp.azure.com=583.92
+dc20vm.eastus.cloudapp.azure.com=549.52
+dc30vm.eastus.cloudapp.azure.com=442.15
+dc40vm.eastus.cloudapp.azure.com=558.64
+dc50vm.eastus.cloudapp.azure.com=587.82
+
+[Minute 20]
+dc10vm.eastus.cloudapp.azure.com=582.60
+dc20vm.eastus.cloudapp.azure.com=541.61
+dc30vm.eastus.cloudapp.azure.com=575.60
+dc40vm.eastus.cloudapp.azure.com=401.20
+dc50vm.eastus.cloudapp.azure.com=590.32
+dc60vm.eastus.cloudapp.azure.com=354.56
+
+[Load Generator]
+andrewid=haow2
+passwd=F9QkDTX1cw5BTk9ynHurwi6556HUuFue
+
+[Data Center 0]
+DNS: dc10vm.eastus.cloudapp.azure.com
+
+[Data Center 1]
+DNS: dc20vm.eastus.cloudapp.azure.com
+
+[Data Center 2]
+DNS: dc30vm.eastus.cloudapp.azure.com
+
+[Data Center 3]
+DNS: dc40vm.eastus.cloudapp.azure.com
+
+[Data Center 4]
+DNS: dc50vm.eastus.cloudapp.azure.com
+
+[Data Center 5]
+DNS: dc60vm.eastus.cloudapp.azure.com
+
+; MSB is validating... go to your submission page for project2.1 to check the feedback
+; Test finished
+Congratulation, you reached the goal rps (3000). Keep going!
+{"success":true,"message":"Your submission is in processing, submission token is:haow2_p21-azure_108_1966582962 Wait and check your code, score and feedback on TPZ.","status":1200}

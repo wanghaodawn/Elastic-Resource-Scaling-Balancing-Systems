@@ -1,0 +1,3 @@
+http://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/ec2/AmazonEC2.html
+http://docs.aws.amazon.com/AWSSdkDocsJava/latest/DeveloperGuide/aws-sdk-java-dg.pdf
+http://stackoverflow.com/questions/9241584/get-public-dns-of-amazon-ec2-instance-from-java-api

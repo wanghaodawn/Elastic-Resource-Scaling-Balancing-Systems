@@ -1,0 +1,144 @@
+; MSB Cache Test
+; Test launched. Please check every minute for update.
+[Test Start]
+time=2016-02-21 04:00:11
+testId=1456027210672
+testFile=test.1456027210672.log
+
+[Minute Report]
+rps(including bad responses)=138.9
+error=0.00
+rps(only correct responses)=138
+
+[Minute Report]
+rps(including bad responses)=141.9
+error=0.00
+rps(only correct responses)=141
+
+[Minute Report]
+rps(including bad responses)=143.2
+error=0.00
+rps(only correct responses)=143
+
+[Minute Report]
+rps(including bad responses)=147.0
+error=0.00
+rps(only correct responses)=147
+
+[Minute Report]
+rps(including bad responses)=144.1
+error=0.00
+rps(only correct responses)=144
+
+[Minute Report]
+rps(including bad responses)=144.1
+error=0.00
+rps(only correct responses)=144
+
+[Minute Report]
+rps(including bad responses)=141.5
+error=0.00
+rps(only correct responses)=141
+
+[Minute Report]
+rps(including bad responses)=143.8
+error=0.00
+rps(only correct responses)=143
+
+[Minute Report]
+rps(including bad responses)=139.7
+error=0.00
+rps(only correct responses)=139
+
+[Minute Report]
+rps(including bad responses)=138.3
+error=0.00
+rps(only correct responses)=138
+
+[Minute Report]
+rps(including bad responses)=142.6
+error=0.00
+rps(only correct responses)=142
+
+[Minute Report]
+rps(including bad responses)=139.4
+error=0.00
+rps(only correct responses)=139
+
+[Minute Report]
+rps(including bad responses)=139.8
+error=0.00
+rps(only correct responses)=139
+
+[Minute Report]
+rps(including bad responses)=138.7
+error=0.00
+rps(only correct responses)=138
+
+[Minute Report]
+rps(including bad responses)=137.4
+error=0.00
+rps(only correct responses)=137
+
+[Minute Report]
+rps(including bad responses)=145.1
+error=0.00
+rps(only correct responses)=145
+
+[Minute Report]
+rps(including bad responses)=144.2
+error=0.00
+rps(only correct responses)=144
+
+[Minute Report]
+rps(including bad responses)=144.2
+error=0.00
+rps(only correct responses)=144
+
+[Minute Report]
+rps(including bad responses)=141.2
+error=0.00
+rps(only correct responses)=141
+
+[Minute Report]
+rps(including bad responses)=144.8
+error=0.00
+rps(only correct responses)=144
+
+[Minute Report]
+rps(including bad responses)=141.4
+error=0.00
+rps(only correct responses)=141
+
+[Minute Report]
+rps(including bad responses)=142.5
+error=0.00
+rps(only correct responses)=142
+
+[Minute Report]
+rps(including bad responses)=144.3
+error=0.00
+rps(only correct responses)=144
+
+[Minute Report]
+rps(including bad responses)=144.7
+error=0.00
+rps(only correct responses)=144
+
+[Load Generator]
+awsId=825708373574
+andrewId=haow2
+amiId=ami-c00134aa
+instanceId=i-631b21e3
+instanceType=m3.medium
+publicHostname=ec2-54-174-32-41.compute-1.amazonaws.com
+ipAddress=54.174.32.41
+
+[Test End]
+time=2016-02-21 04:25:28
+rps=141.75
+error rate=0
+
+; MSB is validating...
+{"success":true,"message":"Your submission is in processing, submission token is:haow2_p23-aws_114_128073326 Wait and check your code, score and feedback on TPZ.","status":1200}
+; Test finished

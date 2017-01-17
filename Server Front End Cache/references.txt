@@ -1,0 +1,2 @@
+https://leetcode.com/discuss/42891/probably-the-best-java-solution-extend-linkedhashmap
+https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html

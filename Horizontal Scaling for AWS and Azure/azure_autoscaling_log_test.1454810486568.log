@@ -1,0 +1,101 @@
+; MSB Azure Junior System Architect Test
+; You used your browser to start this test. 
+; Test launched. Please check every minute for update.
+; You have to start from one Standard_A1 data center instance.
+; Your goal is to configure your auto scaling policy properly so that you can reach 900 rps in 30 minutes
+[Test Start]
+time=2016-02-07 02:01:26
+type=junior
+testId=1454810486568
+testFile=test.1454810486568.log
+
+[Minute 1]
+rps=336.58
+
+[Minute 2]
+rps=550.56
+
+[Minute 3]
+rps=563.71
+
+[Minute 4]
+rps=553.97
+
+[Minute 5]
+rps=570.18
+
+[Minute 6]
+rps=557.98
+
+[Minute 7]
+rps=553.10
+
+[Minute 8]
+rps=562.17
+
+[Minute 9]
+rps=572.60
+
+[Minute 10]
+rps=555.26
+
+[Minute 11]
+rps=556.90
+
+[Minute 12]
+rps=553.09
+
+[Minute 13]
+rps=557.88
+
+[Minute 14]
+rps=574.08
+
+[Minute 15]
+rps=556.62
+
+[Minute 16]
+rps=559.78
+
+[Minute 17]
+rps=561.40
+
+[Minute 18]
+rps=556.31
+
+[Minute 19]
+rps=560.90
+
+[Minute 20]
+rps=553.71
+
+[Minute 21]
+rps=492.36
+
+[Minute 22]
+rps=502.07
+
+[Minute 23]
+rps=357.58
+
+[Minute 24]
+rps=916.36
+
+[Load Generator]
+andrewid=haow2
+submission password=F9QkDTX1cw5BTk9ynHurwi6556HUuFue
+
+[Azure Load Balancer]
+dns=ssn10vm.eastus.cloudapp.azure.com
+
+[Test End]
+time=2016-02-07 02:25:29
+average rps=551
+
+; You used your browser to start this test. 
+; MSB is validating... go to your submission page for project2.1 to check the feedback
+; Test finished
+
+Congratulation! You have passed the junior test on Azure
+
+{"success":true,"message":"Your submission is in processing, submission token is:haow2_p21-azure_108_1965627725 Wait and check your code, score and feedback on TPZ.","status":1200}
